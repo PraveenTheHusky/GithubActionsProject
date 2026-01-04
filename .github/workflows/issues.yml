@@ -1,0 +1,10 @@
+name: Issues opened Workflow
+on:
+  issues:
+    types: [opened]
+jobs:
+  issue_opened_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Issue Opened Step
+        run: echo "An issue has been opened!"
