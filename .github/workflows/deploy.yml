@@ -13,7 +13,7 @@ jobs:
       - name: Lint project
         run: npm run lint
     
-  build & deploy:
+  build-deploy:
     runs-on: ubuntu-latest
     needs: test
     steps:
